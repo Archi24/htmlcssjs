@@ -1,0 +1,45 @@
+
+h2{
+    margin-top: 40px;
+    text-align: center;
+}
+.card{
+    display:grid;
+     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding:20px;
+    grid gap:40px;
+    }
+.card1,.card2,.card3
+{
+    background-color: gray;
+    box-sizing:border-box;
+    height:100%;
+    width:90%;
+    margin-right:15px;
+    border:solid 1px black;
+}
+.card1 h4{
+    background-color: rgb(241, 114, 135);
+    margin-top: 0px;
+    height:25px;
+    width:60px;
+    text-align: center;
+    float:right;
+    
+}
+.card2 h4{
+    background-color: brown;
+    margin-top: 0px;
+    height:25px;
+    width:60px;
+    text-align: center;
+    float:right;
+}
+.card3 h4{
+    background-color:rgb(167, 110, 4);
+    margin-top: 0px;
+    height:25px;
+    width:60px;
+    text-align: center;
+    float:right;
+}
